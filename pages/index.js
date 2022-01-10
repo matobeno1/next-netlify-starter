@@ -24,6 +24,7 @@ export default function Home() {
       </Head>
 
       <main>
+          <div>Status <img src="https://api.netlify.com/api/v1/badges/46648482-644c-4c80-bafb-872057e51b6b/deploy-status" alt="status"/></div>
           <div>Check console</div>
           <form name="contact" method="POST" data-netlify="true" onSubmit={handleSubmit}>
               <input type="hidden" name="form-name" value="contact"/>
